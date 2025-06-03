@@ -1,12 +1,14 @@
-# React + Vite
+# BullRun - HOME OF THE BULLDOZERS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BULLRUN A HYPER-DEFLATIONARY TOKEN
+BULLRUN – THE KING OF LIQUIDITY
 
-Currently, two official plugins are available:
+## ABOUT BULLRUN
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Bullrun is a utility driven token and ecosystem that specifically focuses on addressing four major challenges within the blockchain industry.
 
-## Expanding the ESLint configuration
+We took a solution based approach as we developed the Bullrun Ecosystem.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Our Four Pillars of Solutions are Liquidity, Education,Security, and Social Network.
+
+There are many challenges, but also opportunities within blockchain technology. Those who will come up with effective and proven solutions will benefit the most and stand strong as market leaders.
