@@ -1,0 +1,130 @@
+/* Add to Home.css */
+
+.bullrun-footer {
+    width: 100%;
+    background: #0a0a0a;
+    border-top: 1px solid rgba(255, 215, 0, 0.2);
+    padding: 50px 0 30px;
+    color: #aaa;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .footer-social {
+    text-align: center;
+  }
+  
+  .social-title {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    padding: 8px 15px;
+    border-radius: 6px;
+  }
+  
+  .social-link:hover {
+    transform: translateY(-3px);
+  }
+  
+  .social-link.twitter:hover {
+    color: #1DA1F2;
+    background: rgba(29, 161, 242, 0.1);
+  }
+  
+  .social-link.youtube:hover {
+    color: #FF0000;
+    background: rgba(255, 0, 0, 0.1);
+  }
+  
+  .social-link.telegram:hover {
+    color: #0088cc;
+    background: rgba(0, 136, 204, 0.1);
+  }
+  
+  .social-icon {
+    font-size: 1.3rem;
+  }
+  
+  .footer-disclaimer {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    color: #888;
+    line-height: 1.6;
+  }
+  
+  .footer-credits {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .powered-by {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .it-khaver {
+    color: var(--secondary-color);
+    font-weight: 600;
+  }
+  
+  .copyright {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .social-links {
+      gap: 15px;
+    }
+    
+    .social-link {
+      padding: 6px 12px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .bullrun-footer {
+      padding: 40px 0 20px;
+    }
+    
+    .social-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .social-link {
+      justify-content: center;
+    }
+  }

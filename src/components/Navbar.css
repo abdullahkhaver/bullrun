@@ -1,0 +1,165 @@
+/* Base styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 30px;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .logo-img {
+    height: 60px; /* Increased from 40px */
+    margin-right: 12px;
+  }
+  
+  
+  .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: gold;
+  }
+  
+  /* Links */
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links a {
+    color: chocolate;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: gold;
+  }
+  
+  /* Connect button */
+  .connect-btn {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .connect-btn:hover {
+    background-color: chocolate;
+  }
+  
+  /* Hamburger menu (mobile) */
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: gold;
+    margin: 4px 0;
+    transition: 0.3s;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .navbar-links {
+      position: absolute;
+      top: 65px;
+      left: 0;
+      right: 0;
+      background-color: black;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 15px 0;
+      display: none;
+      z-index: 99;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: flex;
+    }
+  }
+  /* Base Connect button */
+.connect-btn {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .connect-btn:hover {
+    background-color: chocolate;
+  }
+  
+  /* Show/hide connect buttons depending on screen size */
+  .desktop-connect {
+    display: inline-block;
+  }
+  
+  .mobile-connect {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .navbar-links {
+      position: absolute;
+      top: 65px;
+      left: 0;
+      right: 0;
+      background-color: black;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 15px 0;
+      display: none;
+      z-index: 99;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: flex;
+    }
+  
+    .desktop-connect {
+      display: none;
+    }
+  
+    .mobile-connect {
+      display: inline-block;
+    }
+  }
+  
